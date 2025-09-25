@@ -17,7 +17,7 @@ st.markdown("""
     <style>
         body { background-color: #0d0d0d; color: #FFD700; }
         .stApp { background-color:#0d0d0d; color: #FFD700;  }
-        .sidebar .sidebar-content { background-color: #1a1a1a; color: #FFD700; }
+        .sidebar .sidebar-content { background-color: #FFD700; color: #1a1a1a; }
         h1, h2, h3, h4, h5, h6 { color: #FFD700; }
         .stTabs [role="tablist"] button {color: #FFD700; }
         .stTabs [role="tablist"] button[aria-selected="true"] { color: white; }
