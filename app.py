@@ -22,6 +22,12 @@ st.markdown("""
         .stTabs [role="tablist"] button {color: #FFD700; }
         .stTabs [role="tablist"] button[aria-selected="true"] { color: white; }
         write { font-size: 60px; font-weight: 500; }
+        div[data-testid="stMetricValue"] {
+            color: white !important;
+        }
+        div[data-testid="stMetricLabel"] {
+            color: white !important;
+        }
     </style>
 """, unsafe_allow_html=True)
 
